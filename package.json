@@ -2,7 +2,7 @@
   "name": "atelier-verre",
   "private": true,
   "type": "module",
-  "scripts": {
+  "scripts": {"postinstall": "chmod +x node_modules/.bin/* || true"
     "dev": "vite dev",
     "build": "vite build",
     "start": "node .output/server/index.mjs"
